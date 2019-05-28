@@ -1,0 +1,4 @@
+FROM python:3.8
+WORKDIR /python
+EXPOSE 8080
+CMD ["python", "sayhello.py"]
