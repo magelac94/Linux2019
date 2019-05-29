@@ -5,13 +5,13 @@ Magela Carballo
 28 Mayo 2019
 ------------------------------------------------
 
-git clone git@https://github.com/magelac94/Linux2019.git
+git clone https://github.com/magelac94/Linux2019.git
 
 cd Linux2019
 
 cd EjercicioDocker
 
-docker build . apppy
+docker build . --tag="apppy"
 
 docker run -p 8080:8080 apppy
 
