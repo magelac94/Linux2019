@@ -1,4 +1,0 @@
-prueba;
-PRINTF;
-mario;
-hola;
